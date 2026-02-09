@@ -1,5 +1,4 @@
 .article {
-  border: solid 1px red;
   max-width: 357px;
   height: 55vh;
   display: flex;
@@ -12,6 +11,7 @@
     font-weight: 700;
     font-family: "Source Sans 3", sans-serif;
     color: #122f97;
+    text-align: center;
   }
 
   p {
@@ -37,4 +37,17 @@
 .article img {
   width: 100%;
   min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .article {
+    h2 {
+      font-size: 25px;
+    }
+
+    button {
+      width: 150px;
+      font-size: 20px;
+    }
+  }
 }
