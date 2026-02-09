@@ -1,0 +1,44 @@
+import s from "./Doacao.module.scss";
+import InfoCard from "../../components/infoCard/InfoCard";
+import imgFamilia from "../../assets/images/imgFamilia.png";
+import imgEscola from "../../assets/images/imgEscola.png";
+import imgConecta from "../../assets/images/imgConecta.png";
+
+const Doacao = () => {
+  return (
+    <main className={s.main}>
+      <h1>Doação</h1>
+      <section className={s.section}>
+        <article>
+          <InfoCard
+            img={imgFamilia}
+            alt="Imagem de uma pessoa carregando uma caixa com alimentos."
+            subtitulo="Instituto grande familia"
+            paragrafo1="Contribua com alimentos não perecíveis e ajude famílias em situação de vulnerabilidade."
+            btn="Quero Doar"
+          />
+        </article>
+        <article>
+          <InfoCard
+            img={imgEscola}
+            alt="Imagem de com cinco livros e uma estante de livros ao fundo."
+            subtitulo="Projeto Futuro na Escola"
+            paragrafo1="Doe livros, cadernos, lápis, mochilas e canetas para ajudar jovens a continuarem seus estudos com mais estrutura."
+            btn="Quero Doar"
+          />
+        </article>
+        <article>
+          <InfoCard
+            img={imgConecta}
+            alt="Imagem com duas pessoas montando computadores."
+            subtitulo="Instituto Conecta Jovem"
+            paragrafo1="Doe computadores usados, tablets ou celulares em bom estado para permitir que jovens tenham acesso ao mundo digital e novas oportunidades."
+            btn="Quero Doar"
+          />
+        </article>
+      </section>
+    </main>
+  );
+};
+
+export default Doacao;
