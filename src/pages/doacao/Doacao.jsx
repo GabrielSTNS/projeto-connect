@@ -1,4 +1,4 @@
-import s from "./Doacao.module.scss";
+import s from "../Style.module.scss";
 import InfoCard from "../../components/infoCard/InfoCard";
 import imgFamilia from "../../assets/images/imgFamilia.png";
 import imgEscola from "../../assets/images/imgEscola.png";
@@ -8,7 +8,7 @@ const Doacao = () => {
   return (
     <main className={s.main}>
       <h1>Doação</h1>
-      <section className={s.section}>
+      <section>
         <article>
           <InfoCard
             img={imgFamilia}

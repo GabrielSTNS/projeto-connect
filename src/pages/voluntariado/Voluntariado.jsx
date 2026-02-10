@@ -1,7 +1,42 @@
+import s from "../Style.module.scss";
+import InfoCard from "../../components/infoCard/InfoCard";
+import imgReciclagem from "../../assets/images/imgReciclagem.png";
+import imgTech from "../../assets/images/imgTech.png";
+import imgEsporte from "../../assets/images/imgEsporte.png";
+
 const Voluntariado = () => {
   return (
-    <main>
-      <h1>Página de Voluntariado</h1>
+    <main className={s.main}>
+      <h1>Voluntariado</h1>
+      <section>
+        <article>
+          <InfoCard
+            img={imgReciclagem}
+            alt="Imagem de três pessoas carregando caixas de reciclagem."
+            subtitulo="Mutirão de reciclagem"
+            paragrafo1="Coletar materiais recicláveis e orientar sobre descarte consciente."
+            btn="Quero Participar"
+          />
+        </article>
+        <article>
+          <InfoCard
+            img={imgTech}
+            alt="Imagem de três pessoas fazendo aula de informática."
+            subtitulo="Aulas de Tecnologia"
+            paragrafo1="Ensinar noções básicas de informática, internet segura e programação. Preparar jovens para o mercado de trabalho digital."
+            btn="Quero Participar"
+          />
+        </article>
+        <article>
+          <InfoCard
+            img={imgEsporte}
+            alt="Imagem de pessoas se exercitando."
+            subtitulo="Esporte e Inclusão"
+            paragrafo1="Organizar treinos e jogos que incentivem a participação de todos. Promover disciplina, saúde e trabalho em equipe entre jovens."
+            btn="Quero Participar"
+          />
+        </article>
+      </section>
     </main>
   );
 };
