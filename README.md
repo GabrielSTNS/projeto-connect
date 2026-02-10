@@ -1,16 +1,48 @@
-# React + Vite
+# 🌍 Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Connect** é uma aplicação front-end voltada para **ações sociais**, criada com o objetivo de conectar pessoas a iniciativas que fazem a diferença, como **doações, mentoria, voluntariado, eventos e palestras**.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido com foco em **aprendizado prático**, aplicando conceitos essenciais do ecossistema React em um cenário real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 **Página Inicial** com apresentação do projeto
+- 💖 **Página de Doações**
+- 🎓 **Página de Mentoria**
+- 🤝 **Página de Voluntariado**
+- 🎤 **Página de Eventos e Palestras**
+- 👤 **Página do Usuário**
+- 🔁 Navegação entre páginas usando rotas
+- 📱 Layout totalmente **responsivo**
+- 🖱️ Interações com eventos de clique (`onClick`)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+
+- **React.js**
+- **React Router DOM**
+- **SCSS / CSS Modules**
+- **JavaScript (ES6+)**
+- **React Icons**
+- **SweetAlert**
+
+---
+
+## 📚 Conceitos Trabalhados
+
+Este projeto foi fundamental para fixar os seguintes aprendizados:
+
+- Criação e organização de **rotas com `react-router-dom`**
+- Componentes reutilizáveis utilizando **props**
+- **Eventos** em React (ex: `onClick` em botões)
+- **Responsividade** para diferentes tamanhos de tela
+- Organização de projeto e boas práticas de commits
+
+---
+
+## 🙌 Créditos
+
+Este projeto foi desenvolvido como parte da formação em Full-Stack da **Escola Vai na Web**.
